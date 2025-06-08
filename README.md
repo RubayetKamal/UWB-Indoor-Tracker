@@ -1,13 +1,20 @@
 # UWB-Indoor-Tracker
-Grade: 1,0. 
 
-The goal of the project is to precisely monitor movement of autonomous vehicle using Ultrawide-band. An autonomous vehicle will be remotely monitored while it is running on a track. Additionally, the vehicle will know it's current location and perform actions accordingly.
+**Grade: 1,0**
 
-Hardware Used: DWM1000, ESP32, ArduinoUno.
+This project focuses on precisely tracking the movement of an autonomous vehicle using Ultra-Wideband (UWB) technology. The vehicle is remotely monitored while moving on a predefined track. Additionally, it determines its current position and performs corresponding actions based on its location.
 
-•Analysed and specified the Project using SysML and UML diagrams.
-• Implemented positioning algorithm Two-Way Ranging (TWR) along with geometric algorithm Triangulation to calculate coordinate of the vehicle. 
-•Implemented a python script to receive coordinates in computer terminal via Wifi from the Moving Tag and visualised it in a graph using matplotlib.
-• Integrated Kalman Filter to account for measurement noise from sensors. 
-• Added I/O communication between ESP32 and Arduino so that the Tag (ESP32) alerts the Vehicle (Arduino) about the zone.
-• Reviewed previously published literatures about UWB and Kalman Filter.
+**Hardware Used:** DWM1000, ESP32, Arduino Uno
+
+## Features
+
+- 📐 Analyzed and specified the project architecture using SysML and UML diagrams.
+- 📡 Implemented the Two-Way Ranging (TWR) algorithm combined with a geometric triangulation method to calculate the vehicle's 2D coordinates.
+- 🧠 Integrated a Kalman Filter to reduce noise and improve position accuracy.
+- 📊 Developed a Python script to receive real-time coordinates via Wi-Fi from the moving tag and visualize the trajectory using `matplotlib`.
+- 🔁 Enabled I/O communication between the ESP32 and Arduino to allow the Tag (ESP32) to notify the Vehicle (Arduino) when it enters a specific zone.
+- 📚 Reviewed related literature on UWB-based positioning and Kalman Filters to guide implementation and optimization.
+
+---
+
+Feel free to explore the code and documentation for more details!
